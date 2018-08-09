@@ -22,6 +22,6 @@ spring:
     
 girl:
   name: yangsi
-  age:18
+  age: 18
 
 
