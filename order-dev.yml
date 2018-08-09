@@ -12,5 +12,11 @@ feign:
         connectTimeout: 5000
         readTimeout: 5000
         loggerLevel: basic
+ spring:
+   rabbitmq:
+    host: 192.168.118.130
+    port: 5672
+    username: guest
+    password: guest
 
 
