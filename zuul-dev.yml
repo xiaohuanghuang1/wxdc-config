@@ -2,15 +2,15 @@ server:
   port: 10004
 zuul:
     host:
-        connect-timeout-millis: 10000
-        socket-timeout-millis: 60000
+        connect-timeout-millis: 600000
+        socket-timeout-millis: 600000
 hystrix:
     command:
         default:
             execution:
                 isolation:
                     thread:
-                        timeoutInMilliseconds: 60000
+                        timeoutInMilliseconds: 600000
 ribbon:
   ReadTimeout: 100000
   SocketTimeout: 100000
