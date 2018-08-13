@@ -4,3 +4,6 @@ zuul:
   host:
     socket-timeout-millis: 10000
     connection-request-timeout-millis: -1
+hystrix:
+  metrics:
+    enabled: false
