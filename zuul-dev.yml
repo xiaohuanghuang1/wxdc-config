@@ -12,5 +12,5 @@ hystrix:
                     thread:
                         timeoutInMilliseconds: 60000
 ribbon:
-  ReadTimeout: 10000
-  SocketTimeout: 10000
+  ReadTimeout: 100000
+  SocketTimeout: 100000
