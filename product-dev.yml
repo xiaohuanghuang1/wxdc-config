@@ -2,9 +2,9 @@ server:
   port: 10001
 mybatis:
   mapper-locations: "classpath*:mapper/*.xml"
-spring:
-  rabbitmq:
-    host: 192.168.118.130
-    port: 5672
-    username: guest
-    password: guest
+#spring:
+#  rabbitmq:
+#    host: 192.168.118.130
+#    port: 5672
+#    username: guest
+#    password: guest
